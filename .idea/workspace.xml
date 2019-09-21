@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acb03670-493d-4fc1-9aba-bdac26068d73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/js/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css_section/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css_section/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,10 +19,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="107">
+              <caret line="429" column="8" selection-start-line="429" selection-start-column="8" selection-end-line="477" selection-end-column="17" />
               <folding>
                 <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/css_section/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="183">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -79,8 +79,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+            <state relative-caret-position="326">
+              <caret line="195" column="25" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="25" />
+              <folding>
+                <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,11 +91,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-232">
-              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="74" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="217" column="25" selection-start-line="217" selection-start-column="25" selection-end-line="217" selection-end-column="25" />
               <folding>
                 <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -110,6 +113,8 @@
       <find>800+</find>
       <find>video-play-button</find>
       <find>src=</find>
+      <find>blog-hero-content</find>
+      <find>blog-hero-content-desc</find>
       <find>300</find>
     </findStrings>
     <dirStrings>
@@ -129,10 +134,10 @@
         <option value="$PROJECT_DIR$/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/assets/css/fontawesome-all.min.css" />
         <option value="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/assets/css/css_section/blog.css" />
         <option value="$PROJECT_DIR$/assets/css/css_section/contact.css" />
         <option value="$PROJECT_DIR$/assets/css/css_plugins/owl.carousel.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/css_section/blog.css" />
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/blog-single.html" />
       </list>
@@ -221,18 +226,18 @@
       <workItem from="1569045179483" duration="132000" />
       <workItem from="1569045353456" duration="529000" />
       <workItem from="1569046222156" duration="5511000" />
-      <workItem from="1569054251604" duration="1497000" />
+      <workItem from="1569054251604" duration="1823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7669000" />
+    <option name="totallyTimeSpent" value="7995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1987315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13107823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,13 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/css_section/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/css_section/contact.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -320,31 +318,42 @@
     <entry file="file://$PROJECT_DIR$/assets/css/css_plugins/owl.carousel.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/css_section/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="107">
+          <caret line="429" column="8" selection-start-line="429" selection-start-column="8" selection-end-line="477" selection-end-column="17" />
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="74" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="217" column="25" selection-start-line="217" selection-start-column="25" selection-end-line="217" selection-end-column="25" />
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="326">
+          <caret line="195" column="25" selection-start-line="195" selection-start-column="25" selection-end-line="195" selection-end-column="25" />
+          <folding>
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
