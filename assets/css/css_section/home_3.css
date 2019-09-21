@@ -1,0 +1,425 @@
+/*
+  ========================================
+  Top 3 Menu
+  ========================================
+*/
+
+.home3-top-nav.topnav {
+    background-image: -webkit-gradient(linear, right bottom, left top, from(#910ea0), color-stop(#7e09a0), color-stop(#6907a0), color-stop(#500aa0), to(#2e0ea0));
+    background-image: -o-linear-gradient(right bottom, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+    background-image: linear-gradient(to left top, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+}
+
+.home3-top-nav .top-btn a {
+    background: #883eb3;
+    border: 2px solid #883eb3 !important;
+}
+
+.home3-top-nav .top-btn a:hover {
+    background: #883eb37c;
+    border: 2px solid #fff !important;
+}
+
+
+/*
+  ========================================
+  Home 3 Hero
+  ========================================
+*/
+
+.home3-hero {
+    background-image: url(../../img/bg/h3-bg1.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+.home3-hero-title {
+    text-align: center;
+}
+
+.home3-hero-title h1 {
+    font-size: 60px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home3-hero-title p {
+    font-size: 20px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 0 16px;
+}
+
+.home3-hero-title a.btn-1 {
+    background: #fa3467;
+    border: 2px solid #fa3467;
+}
+
+.home3-hero-img {
+    padding-top: 124px;
+}
+
+.home3-hero-img img {
+    border-radius: 15px;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 30px -8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 30px -8px rgba(0, 0, 0, 0.4);
+}
+
+
+/*
+  ========================================
+  Home 3 Services
+  ========================================
+*/
+
+#home3-services-area {
+    position: relative;
+}
+
+.home3-services-area {
+    background-color: #fff;
+    padding-top: 170px;
+    padding-bottom: 180px;
+}
+
+.home3-services-animation {}
+
+.home3-services-animation img {
+    position: absolute;
+}
+
+.home3-services-animation img:nth-child(1) {
+    right: 12%;
+    top: 0;
+    -webkit-animation: scale-up-two 5s infinite linear;
+    animation: scale-up-two 5s infinite linear;
+}
+
+.home3-services-animation img:nth-child(2) {
+    left: 10%;
+    top: 107px;
+    -webkit-animation: rotatedHalf 8s infinite linear;
+    animation: rotatedHalf 8s infinite linear;
+}
+
+.home3-services-animation img:nth-child(3) {
+    right: 12%;
+    bottom: 16%;
+    -webkit-animation: rotatedHalf 8s infinite linear;
+    animation: rotatedHalf 8s infinite linear;
+}
+
+.home3-services-content {
+    padding-top: 18px;
+}
+
+.home3-services-item {
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 30px -8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 30px -8px rgba(0, 0, 0, 0.4);
+    padding: 40px 48px 60px;
+    margin-top: 50px;
+}
+
+.home3-services-item i {}
+
+.home3-services-item i::before {
+    font-size: 80px;
+}
+
+.home3-services-item i::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    width: 213px;
+    height: 168px;
+    border-radius: 0px 30px 74px 37px;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home3-services-item i.flaticon-note::after {
+    background-image: url(../../img/bg/h3-bg-s1.png);
+}
+
+.home3-services-item i.flaticon-cloud-computing::after {
+    background-image: url(../../img/bg/h3-bg-s2.png);
+}
+
+.home3-services-item i.flaticon-document::after {
+    background-image: url(../../img/bg/h3-bg-s3.png);
+}
+
+.home3-services-item h4 {
+    padding-bottom: 20px;
+    padding-top: 77px;
+}
+
+.home3-services-item h4 a {
+    color: #30323d;
+}
+
+.home3-services-item p {}
+
+
+/*
+  ========================================
+  Counter
+  ========================================
+*/
+
+.home3-counter {
+    background-image: url(../../img/bg/h3-bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+}
+
+.home3-how-works-video-content {
+    margin-top: 46px;
+    margin-bottom: -160px;
+}
+
+.home3-how-works-video-content .video-play-button:before {
+    background: #fa3467;
+}
+
+.home3-how-works-video-content .video-play-button:after {
+    background: #fa3467;
+}
+
+.home3-how-works-video-content .video-play-button:hover::before {
+    background: linear-gradient(146deg, #8A62F0, #7142DF);
+}
+
+.home3-how-works-video-content .video-play-button:hover:after {
+    background: linear-gradient(146deg, #8A62F0, #7142DF);
+}
+
+
+/*
+  ========================================
+  Overview
+  ========================================
+*/
+
+.home3-overview-area {
+    padding-top: 156px;
+}
+
+.home3-overview-area .btn-1 {
+    background-color: #fa3467;
+    border: 2px solid #fa3467;
+}
+
+
+/*
+  ========================================
+  Pricing
+  ========================================
+*/
+
+#pricing-area.home3-pricing-area {
+    background-color: #f4f4f4 !important;
+    padding-top: 170px;
+}
+
+#pricing-area.home3-pricing-area::before {
+    content: unset;
+}
+
+.home3-pricing-tab {
+    -ms-flex-pack: center!important;
+    -webkit-box-pack: center!important;
+    justify-content: center!important;
+    margin-top: 66px;
+    margin-bottom: 40px;
+}
+
+.home3-pricing-tab li {}
+
+.home3-pricing-tab li a {
+    font-size: 14px;
+    line-height: 30px;
+    color: #878991;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+    background-color: #fff;
+}
+
+.home3-pricing-tab li a.active {
+    color: #fff;
+    background-color: #fa3467;
+}
+
+.home3-pricing-tab li:nth-child(1) a {
+    padding: 20px 55px;
+    border-radius: 50px 0 0px 50px;
+}
+
+.home3-pricing-tab li:nth-child(2) a {
+    padding: 20px 55px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.home3-pricing-area .pricing-item {
+    background-color: #fff;
+    padding: 55px 47px 61px;
+}
+
+.home3-pricing-area .pricing-item-active {
+    background-image: -webkit-gradient(linear, right bottom, left top, from(#910ea0), color-stop(#7e09a0), color-stop(#6907a0), color-stop(#500aa0), to(#2e0ea0));
+    background-image: -o-linear-gradient(right bottom, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+    background-image: linear-gradient(to left top, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+}
+
+.home3-pricing-area .pricing-item h2 {
+    color: #494a54;
+}
+
+.home3-pricing-area .pricing-item-active h2 {
+    color: #fff;
+}
+
+.home3-pricing-area .pricing-item ul li a {
+    color: #878991;
+}
+
+.home3-pricing-area .pricing-item h2 span {
+    color: #fa3467;
+}
+
+.home3-pricing-area .pricing-item h2 span sub {
+    font-size: 18px;
+}
+
+.home3-pricing-area .pricing-item .btn-1 {
+    background: none;
+    border: 2px solid #fa3467;
+    color: #fa3467;
+}
+
+.home3-pricing-area .pricing-item .btn-1:hover {
+    color: #fff;
+}
+
+.home3-pricing-area .pricing-item-active .btn-1 {
+    color: #fff;
+    background-color: #fa3467;
+}
+
+.home3-pricing-area .pricing-item-active ul li a {
+    color: #fff;
+}
+
+
+/*
+  ========================================
+  How Works
+  ========================================
+*/
+
+.home3-how-works-area {
+    background-image: -webkit-gradient(linear, right bottom, left top, from(#910ea0), color-stop(#7e09a0), color-stop(#6907a0), color-stop(#500aa0), to(#2e0ea0));
+    background-image: -o-linear-gradient(right bottom, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+    background-image: linear-gradient(to left top, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+}
+
+.home3-how-works-area .how-works-content {
+    padding-top: 0;
+}
+
+.home3-how-works-area .section-title {}
+
+.home3-how-works-area .section-title h2 {
+    color: #fff
+}
+
+.home3-how-works-area .section-title p {
+    color: #fff
+}
+
+.home3-how-works-area .how-works-item h4 {
+    color: #fff;
+}
+
+.home3-how-works-area .how-works-item p {
+    color: #fff;
+}
+
+
+/*
+  ========================================
+    Testiminial
+  ========================================
+*/
+
+#testiminial-area.home3-testiminial-area {
+    padding-top: 168px;
+    background-color: #fff;
+}
+
+.home3-testiminial-content {
+    padding-top: 100px;
+}
+
+.home3-testiminial-area .testiminial-content-item {
+    background: #f4f4f4;
+}
+
+
+/*
+  ========================================
+    Faq
+  ========================================
+*/
+
+#faq-area.home3-faq-area {
+    background-color: #f4f4f4;
+}
+
+#faq-area.home3-faq-area button.faq-title {
+    background-image: -webkit-gradient(linear, right bottom, left top, from(#910ea0), color-stop(#7e09a0), color-stop(#6907a0), color-stop(#500aa0), to(#2e0ea0));
+    background-image: -o-linear-gradient(right bottom, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+    background-image: linear-gradient(to left top, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+}
+
+#faq-area.home3-faq-area .accordion .collapsed {
+    background: #fff;
+    color: #30323d;
+}
+
+#faq-area.home4-faq-area .accordion .collapsed .card-icon {
+    background-image: -webkit-gradient(linear, right bottom, left top, from(#910ea0), color-stop(#7e09a0), color-stop(#6907a0), color-stop(#500aa0), to(#2e0ea0));
+    background-image: -o-linear-gradient(right bottom, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+    background-image: linear-gradient(to left top, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+}
+
+
+/*
+  ========================================
+    Footer
+  ========================================
+*/
+
+.home3-footer-area .footer-app {
+    background-image: -webkit-gradient(linear, right bottom, left top, from(#910ea0), color-stop(#7e09a0), color-stop(#6907a0), color-stop(#500aa0), to(#2e0ea0));
+    background-image: -o-linear-gradient(right bottom, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+    background-image: linear-gradient(to left top, #910ea0, #7e09a0, #6907a0, #500aa0, #2e0ea0);
+}
+
+.home3-footer-area .footer-Get-Started-btn a.btn-1 {
+    background: #fa3467;
+    border: 2px solid #fa3467;
+}

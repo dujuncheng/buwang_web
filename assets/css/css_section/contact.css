@@ -1,0 +1,96 @@
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+#contact-area {
+    background-color: #fff;
+}
+
+#contact-area .section-title {}
+
+
+/* Contact Form */
+
+.contact-form {
+    padding-top: 69px;
+}
+
+.contact-form input:focus {
+    box-shadow: inset 0 0 0 1px #1add97, 0 0 3px 1px #1add97;
+    outline: none;
+}
+
+.contact-form textarea:focus {
+    box-shadow: inset 0 0 0 1px #1add97, 0 0 3px 1px #1add97;
+    outline: none;
+}
+
+.contact-form input.contact-name {
+    width: 100%;
+    font-size: 14px;
+    padding: 25px 23px;
+    color: #555555;
+    font-family: "Roboto";
+    font-weight: 400;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    border: 0;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact-form #comment {
+    width: 100%;
+    font-size: 14px;
+    padding: 30px 23px;
+    color: #555555;
+    font-family: "Roboto";
+    font-weight: 400;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    border: 0;
+    outline: none;
+    margin-bottom: 30px;
+    height: 118px;
+}
+
+.contact-form .btn {
+    width: 160px;
+}
+
+
+/*  */
+
+.content-sss {
+    padding-top: 36px;
+}
+
+.contact-right {
+    margin-top: 30px;
+}
+
+.contact-right i {
+    font-size: 24px;
+    color: #1add97;
+    padding: 20px;
+    background-color: #e8fcf4;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.contact-right-text {}
+
+.contact-right-text p {}
+
+.google-map {
+    margin-top: 100px;
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 500px;
+}
+
+ 

@@ -1,0 +1,190 @@
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+#footer-area {
+    position: relative;
+}
+
+.footer-app {
+    background: #8A62F0;
+    background: -o-linear-gradient(146deg, #8A62F0, #7142DF);
+    background: -o-linear-gradient(304deg, #8A62F0, #7142DF);
+    background: linear-gradient(146deg, #8A62F0, #7142DF);
+    padding-top: 173px;
+    position: relative;
+}
+
+.footer-app .section-title h2 {
+    color: #fff;
+}
+
+.footer-app .section-title p {
+    color: #fff;
+    padding: 32px 0 31px;
+}
+
+.footer-Get-Started-btn {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.footer-Get-Started-btn a.btn-1 {
+    width: 200px;
+    margin: 0px 9px;
+}
+
+.footer-Get-Started-btn a.btn-2 {
+    width: 200px;
+    margin: 0px 9px;
+}
+
+.footer-Get-Started-btn a.btn:nth-child(1) {}
+
+.footer-Get-Started-btn a.btn:nth-child(2) {
+    background: none;
+    border: 2px solid #fff;
+}
+
+.footer-Get-Started-img {
+    position: relative;
+    z-index: 22;
+}
+
+.footer-Get-Started-img img {
+    margin-bottom: -3px;
+    width: 100%;
+}
+
+.footer-wiget {
+    padding-top: 78px;
+    padding-bottom: 70px;
+}
+
+.footer-wiget-item {}
+
+.footer-wiget-item a img {}
+
+.footer-wiget-item p {
+    padding-top: 14px;
+}
+
+.footer-wiget-item {}
+
+.footer-wiget-item h5 {
+    font-weight: 700;
+    color: #30323d;
+    font-size: 16px;
+}
+
+.footer-wiget-item ul {}
+
+.footer-wiget-item ul li {}
+
+.footer-wiget-item ul li a {
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #878991;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.footer-wiget-item ul li a::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 2px;
+    width: 10px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#8d66f2), color-stop(#855bec), color-stop(#7c51e6), color-stop(#7445e0), to(#6b3ada));
+    background-image: -o-linear-gradient(left, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    background-image: linear-gradient(to right, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    z-index: 99;
+    border-radius: unset;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.footer-wiget-item ul li a:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#8d66f2), color-stop(#855bec), color-stop(#7c51e6), color-stop(#7445e0), to(#6b3ada));
+    background-image: -o-linear-gradient(left, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    background-image: linear-gradient(to right, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+
+.footer-wiget-item ul li:hover a::before {
+    opacity: 1;
+    left: -15px;
+}
+
+.copy-right {
+    text-align: center;
+    border-top: 2px solid #e4e4e4;
+    padding: 30px 0 60px;
+}
+
+.copy-right p {
+    color: #878991;
+    font-size: 14px;
+}
+
+.side-wrapper {
+    position: relative;
+    z-index: 333;
+    background-color: #fff;
+}
+
+.side-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+/* animet */
+
+.home1-footer-animet {}
+
+.home1-footer-animet img {}
+
+.home1-footer-animet img:nth-child(1) {
+    position: absolute;
+    top: 104px;
+    left: 80px;
+    -webkit-animation: scale-up-two 7s infinite linear;
+    animation: scale-up-two 7s infinite linear;
+}
+
+.home1-footer-animet img:nth-child(2) {
+    position: absolute;
+    top: 70px;
+    left: 60%;
+    -webkit-animation: scale-up-two 5s infinite linear;
+    animation: scale-up-two 5s infinite linear;
+}
+
+.home1-footer-animet img:nth-child(3) {
+    position: absolute;
+    top: 300px;
+    right: 60px;
+    -webkit-animation: scale-up-two 8s infinite linear;
+    animation: scale-up-two 8s infinite linear;
+}

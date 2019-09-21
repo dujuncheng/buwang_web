@@ -1,0 +1,591 @@
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0px;
+    padding: 30px 0;
+    z-index: 3333;
+    transition: all .5s;
+}
+
+.topnav {
+    padding: 0px 0px;
+    background: #8A62F0;
+    background: -webkit-linear-gradient(146deg, #8A62F0, #7142DF);
+    background: -moz-linear-gradient(146deg, #8A62F0, #7142DF);
+    background: -o-linear-gradient(146deg, #8A62F0, #7142DF);
+    background: linear-gradient(146deg, #8A62F0, #7142DF);
+    -webkit-box-shadow: 0px 17px 41px -36px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 17px 41px -36px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 17px 41px -36px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+    position: relative;
+    z-index: 123;
+    padding: 22px 0;
+    font: 18px verdana;
+    color: #6DDB07;
+    float: left;
+    width: 15%;
+}
+
+.logo a {
+    color: #004091;
+}
+
+nav {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #head-mobile {
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#cssmenu:after,
+#cssmenu>ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+#cssmenu #head-mobile {
+    display: none
+}
+
+#cssmenu {
+    font-family: sans-serif;
+    z-index: 222;
+}
+
+#cssmenu>ul {
+    margin: 0;
+    float: right;
+}
+
+#cssmenu>ul>li {
+    float: left
+}
+
+#cssmenu>ul>li>a {
+    text-transform: capitalize;
+    margin: 0px 17px;
+    padding: 30px 0px;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cssmenu>ul>li>a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#cssmenu>ul>li>a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+#cssmenu>ul>li:hover>a,
+#cssmenu ul li.active a {}
+
+#cssmenu>ul>li:hover,
+#cssmenu ul li.active:hover,
+#cssmenu ul li.active,
+#cssmenu ul li.has-sub.active:hover {
+    -webkit-transition: background .3s ease;
+    -ms-transition: background .3s ease;
+    transition: background .3s ease;
+}
+
+#cssmenu ul li.active a {
+    border: none;
+}
+
+
+/* #cssmenu>ul>li.has-sub>a {
+     padding-right: 30px
+ }
+  #cssmenu>ul>li.has-sub>a:after {
+     position: absolute;
+     top: 22px;
+     right: 11px;
+     width: 8px;
+     height: 2px;
+     display: block;
+     background: #ddd;
+     content: ''
+ }
+ 
+ #cssmenu>ul>li.has-sub>a:before {
+     position: absolute;
+     top: 19px;
+     right: 14px;
+     display: block;
+     width: 2px;
+     height: 8px;
+     background: #ddd;
+     content: '';
+     -webkit-transition: all .25s ease;
+     -ms-transition: all .25s ease;
+     transition: all .25s ease
+ } */
+
+#cssmenu>ul>li.has-sub:hover>a:before {
+    top: 23px;
+    height: 0
+}
+
+#cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    background: #fff;
+    padding: 17px 15px;
+    border-radius: 4px;
+    border-top: 2px solid #1add97;
+    transition: all .4s;
+    -webkit-box-shadow: 0px 4px 10px -6px rgba(166, 166, 166, 1);
+    -moz-box-shadow: 0px 4px 10px -6px rgba(166, 166, 166, 1);
+    box-shadow: 0px 4px 10px -6px rgba(166, 166, 166, 1);
+}
+
+#cssmenu ul ul li {
+    height: 0;
+    -webkit-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease
+}
+
+
+/*  #cssmenu ul ul li:hover {} */
+
+#cssmenu li:hover>ul {
+    left: auto
+}
+
+#cssmenu li:hover>ul>li {
+    height: 40px;
+}
+
+#cssmenu ul ul ul {
+    margin-left: 100%;
+    top: 0
+}
+
+#cssmenu ul ul li a {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 5px;
+    width: 180px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #6b3ada;
+    position: relative;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#cssmenu ul ul li a::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 2px;
+    width: 10px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#8d66f2), color-stop(#855bec), color-stop(#7c51e6), color-stop(#7445e0), to(#6b3ada));
+    background-image: -o-linear-gradient(left, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    background-image: linear-gradient(to right, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    z-index: 99;
+    border-radius: unset;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#cssmenu ul ul li a:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#8d66f2), color-stop(#855bec), color-stop(#7c51e6), color-stop(#7445e0), to(#6b3ada));
+    background-image: -o-linear-gradient(left, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    background-image: linear-gradient(to right, #8d66f2, #855bec, #7c51e6, #7445e0, #6b3ada);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+
+#cssmenu ul ul li:hover a::before {
+    opacity: 1;
+    left: -15px;
+}
+
+#cssmenu ul ul li:last-child>a,
+#cssmenu ul ul li.last-item>a {
+    border-bottom: 0
+}
+
+#cssmenu ul ul li:hover>a,
+#cssmenu ul ul li a:hover {}
+
+
+/*  #cssmenu ul ul li.has-sub>a:after {
+     position: absolute;
+     top: 16px;
+     right: 11px;
+     width: 8px;
+     height: 2px;
+     display: block;
+     background: #ddd;
+     content: ''
+ }
+ 
+ #cssmenu ul ul li.has-sub>a:before {
+     position: absolute;
+     top: 13px;
+     right: 14px;
+     display: block;
+     width: 2px;
+     height: 8px;
+     background: #ddd;
+     content: '';
+     -webkit-transition: all .25s ease;
+     -ms-transition: all .25s ease;
+     transition: all .25s ease
+ }
+ 
+ #cssmenu ul ul>li.has-sub:hover>a:before {
+     top: 17px;
+     height: 0
+ } */
+
+#cssmenu ul ul li.has-sub:hover,
+#cssmenu ul li.has-sub ul li.has-sub ul li:hover {
+    background: #404040;
+}
+
+#cssmenu ul ul ul li.active a {
+    border-left: 1px solid #333
+}
+
+#cssmenu>ul>li.has-sub>ul>li.active>a,
+#cssmenu>ul ul>li.has-sub>ul>li.active>a {
+    border-top: 1px solid #333
+}
+
+.top-btn {
+    padding: 16px 0;
+}
+
+.top-btn a {
+    background: #1add97;
+    padding: 12px 50px !important;
+    border-radius: 100px;
+    margin-left: 15px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #1add97 !important;
+    transition: .8s linear;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    overflow: hidden;
+}
+
+.top-btn a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(146deg, #8A62F0, #7142DF);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.top-btn a:active,
+.top-btn a:focus,
+.top-btn a:hover {
+    color: #fff
+}
+
+.top-btn a:active:before,
+.top-btn a:focus:before,
+.top-btn a:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1)
+}
+
+#cssmenu>ul>li.top-btn:nth-last-child(1) a:after {
+    content: unset;
+}
+
+@media screen and (max-width:1000px) {
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 46px;
+        text-align: left;
+        padding: 10px 17px;
+        float: none;
+    }
+    .logo2 {
+        display: none
+    }
+    nav {
+        width: 100%;
+    }
+    #cssmenu {
+        width: 100%
+    }
+    #cssmenu ul {
+        width: 100%;
+        display: none
+    }
+    #cssmenu ul li {
+        width: 100%;
+        border-top: 1px solid #444;
+        background-color: #000;
+    }
+    #cssmenu ul li:hover {
+        background: #363636;
+    }
+    #cssmenu ul ul li,
+    #cssmenu li:hover>ul>li {
+        height: auto
+    }
+    #cssmenu ul li a,
+    #cssmenu ul ul li a {
+        width: 100%;
+        border-bottom: 0
+    }
+    #cssmenu ul ul {
+        padding: 0px 0px;
+        border-radius: 0px;
+        transition: unset;
+    }
+    #cssmenu>ul>li {
+        float: none
+    }
+    #cssmenu ul ul li a {
+        padding-left: 25px
+    }
+    #cssmenu ul ul li {
+        background: #333!important;
+    }
+    #cssmenu ul ul li:hover {
+        background: #363636!important
+    }
+    #cssmenu ul ul ul li a {
+        padding-left: 35px
+    }
+    #cssmenu ul ul li a {
+        color: #ddd;
+        background: none;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    #cssmenu ul ul li:hover>a,
+    #cssmenu ul ul li.active>a {
+        color: #fafafa
+    }
+    #cssmenu ul ul,
+    #cssmenu ul ul ul {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        text-align: left
+    }
+    #cssmenu>ul>li.has-sub>a:after,
+    #cssmenu>ul>li.has-sub>a:before,
+    #cssmenu ul ul>li.has-sub>a:after,
+    #cssmenu ul ul>li.has-sub>a:before {
+        display: none
+    }
+    #cssmenu #head-mobile {
+        display: block;
+        padding: 23px;
+        color: #ddd;
+        font-size: 12px;
+        font-weight: 700
+    }
+    .button {
+        width: 55px;
+        height: 46px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        z-index: 12399994;
+    }
+    .button:after {
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        display: block;
+        height: 8px;
+        width: 20px;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        content: '';
+    }
+    .button:before {
+        -webkit-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        transition: all .3s ease;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        display: block;
+        height: 2px;
+        width: 20px;
+        background: #fff;
+        content: ''
+    }
+    .button.menu-opened:after {
+        -webkit-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        transition: all .3s ease;
+        top: 23px;
+        border: 0;
+        height: 2px;
+        width: 19px;
+        background: #fff;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg)
+    }
+    .button.menu-opened:before {
+        top: 23px;
+        background: #fff;
+        width: 19px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg)
+    }
+    #cssmenu .submenu-button {
+        position: absolute;
+        z-index: 99;
+        right: 0;
+        top: 0;
+        display: block;
+        border-left: 1px solid #444;
+        height: 46px;
+        width: 46px;
+        cursor: pointer
+    }
+    #cssmenu .submenu-button.submenu-opened {
+        background: #262626
+    }
+    #cssmenu ul ul .submenu-button {
+        height: 34px;
+        width: 34px
+    }
+    #cssmenu .submenu-button:after {
+        position: absolute;
+        top: 22px;
+        right: 19px;
+        width: 8px;
+        height: 2px;
+        display: block;
+        background: #ddd;
+        content: ''
+    }
+    #cssmenu ul ul .submenu-button:after {
+        top: 15px;
+        right: 13px
+    }
+    #cssmenu .submenu-button.submenu-opened:after {
+        background: #fafafa
+    }
+    #cssmenu .submenu-button:before {
+        position: absolute;
+        top: 19px;
+        right: 22px;
+        display: block;
+        width: 2px;
+        height: 8px;
+        background: #ddd;
+        content: ''
+    }
+    #cssmenu ul ul .submenu-button:before {
+        top: 12px;
+        right: 16px
+    }
+    #cssmenu .submenu-button.submenu-opened:before {
+        display: none
+    }
+    #cssmenu ul ul ul li.active a {
+        border-left: none
+    }
+    #cssmenu>ul>li.has-sub>ul>li.active>a,
+    #cssmenu>ul ul>li.has-sub>ul>li.active>a {
+        border-top: none
+    }
+    .navbar-nav.open {}
+    #cssmenu>ul>li>a {
+        padding: 11px 17px;
+        margin: 0;
+    }
+    li.top-btn {
+        display: none !important;
+    }
+}

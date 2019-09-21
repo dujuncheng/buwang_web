@@ -1,0 +1,416 @@
+/*
+  ========================================
+  Top 2 Menu
+  ========================================
+*/
+
+.home2-top-nav.topnav {
+    background: #3343a2;
+}
+
+.home2-top-nav .top-btn a {
+    background: #5f73e5;
+    border: 2px solid #5f73e5 !important;
+}
+
+.home2-top-nav .top-btn a:hover {
+    background: #5f73e57e;
+    border: 2px solid #fff !important;
+}
+
+
+/*
+  ========================================
+  Home 2 Hero
+  ========================================
+*/
+
+#home2-hero {}
+
+.home2-hero {
+    background-color: #3343a2;
+    padding-top: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home2-hero::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../../img/bg/h2-bg1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27%;
+}
+
+.home2-hero-title {
+    text-align: center;
+}
+
+.home2-hero-title h1 {
+    font-size: 60px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home2-hero-title p {
+    font-size: 20px;
+    line-height: 37px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 32px 0 34px 0;
+}
+
+.home2-hero-title a.btn {}
+
+.home2-hero-img {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: -5px;
+}
+
+.home2-hero-img img {}
+
+.home2-hero-img img:nth-child(1) {
+    width: 100%;
+}
+
+.home2-hero-img img:nth-child(2) {
+    position: absolute;
+    top: 54%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -81px;
+    -webkit-box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+    box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+    width: 35%;
+    border-radius: 10px;
+}
+
+.home2-hero-img img:nth-child(3) {
+    position: absolute;
+    right: -70px;
+    top: -78px;
+    -webkit-box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+    box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+    -webkit-animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+    animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    border-radius: 10px;
+}
+
+.home2-animation {}
+
+.animated-1 {
+    background-color: #0055f9;
+    width: 320px;
+    height: 70px;
+    position: absolute;
+    top: 25%;
+    left: -95px;
+    -webkit-transform: rotate(-20deg) translateY(25%);
+    -ms-transform: rotate(-20deg) translateY(25%);
+    transform: rotate(-20deg) translateY(25%);
+}
+
+.animated-2 {
+    background-color: #0055f9;
+    width: 320px;
+    height: 70px;
+    position: absolute;
+    top: 51%;
+    left: 305px;
+    -webkit-transform: rotate(-20deg) translateY(25%);
+    -ms-transform: rotate(-20deg) translateY(25%);
+    transform: rotate(-20deg) translateY(25%);
+}
+
+.animated-3 {
+    background-color: #0055f9;
+    width: 190px;
+    height: 70px;
+    position: absolute;
+    top: 30%;
+    right: -11px;
+    -webkit-transform: rotate(-20deg) translateY(25%);
+    -ms-transform: rotate(-20deg) translateY(25%);
+    transform: rotate(-20deg) translateY(25%);
+    -webkit-clip-path: polygon(0 1%, 100% 0%, 87% 100%, 0% 100%);
+    clip-path: polygon(0 1%, 100% 0%, 87% 100%, 0% 100%);
+}
+
+.animated-4 {
+    width: 320px;
+    height: 70px;
+    position: absolute;
+    top: 22%;
+    left: 19%;
+    -webkit-transform: rotate(-20deg) translateY(25%);
+    -ms-transform: rotate(-20deg) translateY(25%);
+    transform: rotate(-20deg) translateY(25%);
+    background: rgb(209, 209, 209);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(209, 209, 209, 0.08167016806722693)), color-stop(0%, rgba(194, 194, 194, 0.3085609243697479)), to(rgba(209, 209, 209, 0.7231267507002801)));
+    background: -o-linear-gradient(left, rgba(209, 209, 209, 0.08167016806722693) 0%, rgba(194, 194, 194, 0.3085609243697479) 0%, rgba(209, 209, 209, 0.7231267507002801) 100%);
+    background: linear-gradient(90deg, rgba(209, 209, 209, 0.08167016806722693) 0%, rgba(194, 194, 194, 0.3085609243697479) 0%, rgba(209, 209, 209, 0.7231267507002801) 100%);
+    opacity: .3;
+}
+
+.animated-5 {
+    width: 320px;
+    height: 70px;
+    position: absolute;
+    top: 19%;
+    right: 14%;
+    -webkit-transform: rotate(-20deg) translateY(25%);
+    -ms-transform: rotate(-20deg) translateY(25%);
+    transform: rotate(-20deg) translateY(25%);
+    background: rgb(209, 209, 209);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(209, 209, 209, 0.08167016806722693)), color-stop(0%, rgba(194, 194, 194, 0.3085609243697479)), to(rgba(209, 209, 209, 0.7231267507002801)));
+    background: -o-linear-gradient(left, rgba(209, 209, 209, 0.08167016806722693) 0%, rgba(194, 194, 194, 0.3085609243697479) 0%, rgba(209, 209, 209, 0.7231267507002801) 100%);
+    background: linear-gradient(90deg, rgba(209, 209, 209, 0.08167016806722693) 0%, rgba(194, 194, 194, 0.3085609243697479) 0%, rgba(209, 209, 209, 0.7231267507002801) 100%);
+    opacity: .3;
+}
+
+.animated-6 {
+    background-color: #ff5981;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    -webkit-transform: rotate(-20deg) translateY(25%);
+    -ms-transform: rotate(-20deg) translateY(25%);
+    transform: rotate(-20deg) translateY(25%);
+    border-radius: 100%;
+    -webkit-animation: scale-up-two 5s infinite linear;
+    animation: scale-up-two 5s infinite linear;
+}
+
+.animated-7 {
+    background-color: #ff5981;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 54%;
+    right: 21%;
+    -webkit-transform: rotate(-20deg) translateY(25%);
+    -ms-transform: rotate(-20deg) translateY(25%);
+    transform: rotate(-20deg) translateY(25%);
+    border-radius: 100%;
+}
+
+
+/*
+  ========================================
+  Home 2 Services
+  ========================================
+*/
+
+.home2-services {
+    padding-top: 179px;
+    position: relative;
+}
+
+.home2-services-wrapper {
+    position: relative;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+    box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+    padding: 104px 80px 5px;
+}
+
+.home2-services::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 73%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: url(../../img/bg/h2-bg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+}
+
+.services-bg1 {
+    position: absolute;
+    background-color: #ff5981;
+    width: 580px;
+    height: 150px;
+    border-radius: 100px;
+    -webkit-transform: rotate(-40deg) translateY(-50%);
+    -ms-transform: rotate(-40deg) translateY(-50%);
+    transform: rotate(-40deg) translateY(-50%);
+    top: 50%;
+    left: 93px;
+}
+
+.home2-services .home1-services-item:hover {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.home2-services .home1-services-item {
+    padding: 27px 17px;
+}
+
+.home2-services .home1-services-item:hover {
+    -webkit-box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+    box-shadow: 0px 0px 41px -10px rgba(158, 158, 158, 0.58);
+}
+
+
+/*
+  ========================================
+  Counter
+  ========================================
+*/
+
+.home2-counter {
+    background-color: #fff;
+    padding-top: 151px;
+    padding-bottom: 126px;
+}
+
+.home2-counter .counter {
+    color: #936df0;
+}
+
+.home2-counter sup {
+    color: #936df0;
+}
+
+.home2-counter .counter-2 span {
+    color: #fd769f;
+}
+
+.home2-counter .counter-2 sup {
+    color: #fd769f;
+}
+
+.home2-counter .counter-3 span {
+    color: #49eeb4;
+}
+
+.home2-counter .counter-3 sup {
+    color: #49eeb4;
+}
+
+.home2-counter p {
+    color: #878991;
+}
+
+
+/*
+  ========================================
+  Overview
+  ========================================
+*/
+
+.home2-overview-area {
+    background-image: url(../../img/bg/h2-bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*
+  ========================================
+  How Works
+  ========================================
+*/
+
+#how-works-area.home2-how-works-area {
+    background-color: #fff;
+    padding-top: 178px;
+}
+
+.home2-how-works-area .how-works-video-content {
+    background: url(../../img/bg/h2-video-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 162px 0;
+}
+
+.home2-how-works-area .how-works-item .top-line {
+    background: #f4f4f4;
+}
+
+
+/*
+  ========================================
+  Pricing
+  ========================================
+*/
+
+#pricing-area.home2-pricing-area {
+    padding-top: 45px;
+    padding-bottom: 207px;
+}
+
+.home2-pricing-area .pricing-item {
+    background-color: #4654aa;
+}
+
+.home2-pricing-area .pricing-item.active {
+    background: #3343a2;
+}
+
+.home2-pricing-area .pricing-item.active::before {
+    background-color: rgba(71, 86, 171, 0.3);
+}
+
+.home2-pricing-area .pricing-item.active::after {
+    background-color: rgba(61, 77, 167, 0.3);
+}
+
+.home2-pricing-area .pricing-item .btn {
+    background: none;
+    border: 2px solid #fff;
+}
+
+.home2-pricing-area .pricing-item.active .btn {
+    background: #1add97;
+    border: unset;
+}
+
+.home2-footer-area .footer-app {
+    background: #3343a2;
+}
+
+
+/*
+  ========================================
+    Faq
+  ========================================
+*/
+
+#faq-area.home2-faq-area {
+    background-color: #fff;
+}
+
+#faq-area.home2-faq-area button.faq-title {
+    background: #3343a2;
+    color: #fff;
+}
+
+#faq-area.home2-faq-area .accordion .collapsed {
+    background: #fff;
+    color: #30323d;
+}
+
+#faq-area.home2-faq-area .accordion .collapsed .card-icon {
+    background: #3343a2;
+}
