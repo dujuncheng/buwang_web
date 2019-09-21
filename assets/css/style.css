@@ -1,29 +1,4 @@
-/* ============================================================
-      [Master Stylesheet]
 
- Theme Name: Xipper - App Landing HTML Template
- Theme URI: https://themeforest.net/user/pixelcurve/portfolio
- Description: Xipper - App Landing HTML Template
- Author: pixelcurve
- Author URI:
- Version: 1.1
-
- main Font    : Open Sans
-
-============================================================== */
-
-
-/*
-  ========================================
-  Google Fonts
-  ========================================
-*/
-
-/*
-  ========================================
-  Aos, Slick,
-  ========================================
-*/
 
 @import "../css/css_plugins/aos.css";
 @import "../css/css_plugins/magnific-popup.css";
@@ -39,21 +14,6 @@
 @import "../css/css_plugins/reset.css";
 @import "../css/css_plugins/typography.css";
 @import "../css/css_plugins/custom-animation.css";
-
-/*
-  ========================================
-        Css Style
-
-  [1] Menu
-  [2] Home 1
-  [3] Home 2
-  [4] Home 3
-  [5] Home 4
-  [6] blog
-  [7] contact
-  [8] footer
-  ========================================
-*/
 
 @import "../css/css_section/menu.css";
 @import "../css/css_section/home_1.css";

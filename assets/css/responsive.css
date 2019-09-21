@@ -1,8 +1,3 @@
-/* Large screens ----------- */
-
-
-/* // Extra large devices (large desktops, 1200px and up) */
-
 @media (min-width: 1200px) {}
 
 @media only screen and (min-width: 1920px) {
@@ -17,7 +12,7 @@
     .hero1-right img {
         width: 95%;
     }
-    
+
 }
 
 
@@ -36,7 +31,7 @@
         line-height: 48px !important;
     }
     h4 {
-        font-size: 22px; 
+        font-size: 22px;
     }
     .hero1-right {
         width: 50%;
@@ -48,7 +43,7 @@
         padding-top: 200px;
         padding-bottom: 226px;
     }
-     
+
     .home1-hero-content p {
         font-size: 16px;
         line-height: 30px;
@@ -122,23 +117,23 @@
     .footer-app {
         padding-top: 97px;
     }
-    .how-works-item { 
+    .how-works-item {
         padding: 40px 30px;
     }
     .overview-title p {
         font-size: 16px;
-        line-height: 25px; 
+        line-height: 25px;
     }
     .faq-content-title p {
         font-size: 18px;
-        line-height: 33px; 
+        line-height: 33px;
     }
-    .faq-content-title h2 { 
+    .faq-content-title h2 {
         line-height: 50px;
     }
     /*
     ========================================
-                 Home 2 
+                 Home 2
     ========================================
     */
     .home2-services .home1-services-item {
@@ -160,10 +155,10 @@
     }
     /*
     ========================================
-                 Home 3 
+                 Home 3
     ========================================
     */
-    .home3-hero { 
+    .home3-hero {
         padding-top: 220px;
     }
     .home3-hero-img {
@@ -193,7 +188,7 @@
     }
     /*
     ========================================
-                 Home 4 
+                 Home 4
     ========================================
     */
     .home4-hero-img {
@@ -211,7 +206,7 @@
     .home4-pricing-area {
         padding-top: 100px;
     }
-    .footer-app .section-title p { 
+    .footer-app .section-title p {
         padding: 14px 0 31px;
     }
     /*
@@ -240,7 +235,7 @@
         font-size: 14px;
         padding: 6px 0;
     }
-    
+
 }
 
 @media (max-width: 991.98px) {
@@ -428,7 +423,7 @@
     }
     /*
     ========================================
-                 Home 2 
+                 Home 2
     ========================================
     */
     .home2-hero {
@@ -467,7 +462,7 @@
     }
     /*
     ========================================
-                 Home 3 
+                 Home 3
     ========================================
     */
     .home3-hero {
@@ -498,7 +493,7 @@
     }
     /*
     ========================================
-                 Home 4 
+                 Home 4
     ========================================
     */
     .home4-animations {
@@ -519,7 +514,7 @@
     .home4-hero-img {
         margin-top: 60px;
     }
-    .home4-hero-title p { 
+    .home4-hero-title p {
         line-height: 45px;
     }
     /*
@@ -615,7 +610,7 @@
     }
     .hero1-right img {
         width: 100%;
-    } 
+    }
     #home1-services-area {
         padding-top: 88px;
     }
@@ -748,7 +743,7 @@
     }
     /*
     ========================================
-                 Home 2 
+                 Home 2
     ========================================
     */
     .home2-hero {
@@ -791,7 +786,7 @@
     }
     /*
     ========================================
-                 Home 3 
+                 Home 3
     ========================================
     */
     .home3-hero {
@@ -827,7 +822,7 @@
     }
     /*
     ========================================
-                 Home 4 
+                 Home 4
     ========================================
     */
     .home4-animations {
@@ -1104,7 +1099,7 @@
     }
     /*
     ========================================
-                 Home 2 
+                 Home 2
     ========================================
     */
     .home2-hero {
@@ -1147,7 +1142,7 @@
     }
     /*
     ========================================
-                 Home 3 
+                 Home 3
     ========================================
     */
     .home3-hero {
@@ -1186,7 +1181,7 @@
     }
     /*
     ========================================
-                 Home 4 
+                 Home 4
     ========================================
     */
     .home4-animations {
@@ -1263,7 +1258,7 @@
 @media (max-width: 320px) {
     .home3-hero-img {
         padding-top: 67px;
-    } 
+    }
     .how-works-item img {
         width: 100%;
     }
