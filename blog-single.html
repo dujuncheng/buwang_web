@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css">
 </head>
 
 <body>
@@ -31,19 +31,18 @@
                                     <img src="assets/img/blog/1.png" alt="">
                                     <ul>
                                         <li><a href="#"><i class="far fa-calendar-alt"></i> 11 Dec 2018</a></li>
-                                        <li><a href="#"><i class="fas fa-user"></i> Admin</a></li>
+                                        <li><a href="#"><i class="fas fa-user"></i>{{userInfo.nickname}}</a></li>
                                     </ul>
                                 </div>
-                                <h4 class="blog-title">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</h4>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit Hit your coverage goals without boxing people into pre-defined work that makes fine-tuning easy. consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <h1 class="blog-title">{{contentInfo.title}}</h1>
+
+                                <p></p>
 
                             </div>
                             <!-- blog single -->
+
                             <div class="blog-single">
-                                <h4>Hit your coverage goals without boxing people into pre-defined work that makes fine-tuning easy. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h4>
-                                <p>Hit your coverage goals without boxing people into pre-defined work that makes fine-tuning easy. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris.</p>
+                                <div class="markdown-body" v-html="contentInfo.contentHTML">{{contentInfo.contentHTML}}</div>
                             </div>
 
                         </div>
@@ -106,7 +105,9 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="assets/js/base64.js"></script>
     <script src="assets/js/blog-single.js"></script>
     <script>
         /*
