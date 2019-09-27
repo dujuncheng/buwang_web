@@ -30,18 +30,18 @@
                                 <div class="blog-image">
                                     <img src="assets/img/blog/1.png" alt="">
                                     <ul>
-                                        <li><a href="#"><i class="far fa-calendar-alt"></i> 11 Dec 2018</a></li>
-                                        <li><a href="#"><i class="fas fa-user"></i>{{userInfo.nickname}}</a></li>
+                                        <li><a href="#"><i class="far fa-calendar-alt"></i> {{ contentInfo.time | formatData }}</a></li>
+                                        <li v-if="userInfo.nickname"><a href="#"><i class="fas fa-user"></i>{{userInfo.nickname}}</a></li>
                                     </ul>
                                 </div>
-                                <h1 class="blog-title">{{contentInfo.title}}</h1>
+                                <h1 class="blog-title" v-if="contentInfo.title">{{contentInfo.title}}</h1>
 
                                 <p></p>
 
                             </div>
                             <!-- blog single -->
 
-                            <div class="blog-single">
+                            <div class="blog-single" v-if="contentInfo.contentHTML">
                                 <div class="markdown-body" v-html="contentInfo.contentHTML">{{contentInfo.contentHTML}}</div>
                             </div>
 
